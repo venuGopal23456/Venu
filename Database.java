@@ -30,7 +30,7 @@ public class Database {
 		EMail=name;
 		System.out.println("Your EMail ID is "+EMail+ "@gmail.com");
 		Random random=new Random();
-		int value=1000+random.nextInt(1005);
+		int value=1000+random.nextInt(2000);
 		
 		UserID=ID+value+SSN.substring(4,8);
 		System.out.println("UserID is "+UserID);
